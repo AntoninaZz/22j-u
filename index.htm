@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's J-u B-day!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: whitesmoke;
+            height: 100vh;
+            margin: 0;
+            background-image: url("./img/bg.jpg");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: contain;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #e6fee6a9;
+            color: palegreen;
+            text-shadow: -1px -1px 0 darkgreen, 1px -1px 0 darkgreen, -1px 1px 0 darkgreen, 1px 1px 0 darkgreen;
+            padding: 1em;
+            border-radius: 5px;
+        }
+
+        #confetti {
+            background: #00000060;
+            min-width: 150vw;
+            height: 150%;
+            position: fixed;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Happy B-day,<br>Юся!</h1>
+    <div id="confetti"></div>
+</body>
+<script type="text/javascript" src="confetti.js"></script>
+</html>
